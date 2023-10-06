@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOIN US</title>
+
+</head>
+
+<body>
+    <h2>Join US !</h2>
+
+    <label for="Your picture"></label><br><br>Your Profile picture
+
+        <input type="file" id="pic" name="pic"><br><br>
+
+    <form action="/submit" method="post">
+
+        <label for="name">Full Name</label><br>
+
+        <input type="text" id="name" name="name" placeholder="name"><br><br>
+        
+            <label for="email">Email</label><br>
+   
+        <input type="email" id="email" name="email" placeholder="@gmail.com"><br><br>
+
+            <label for="phone">Phone Number</label><br>
+
+        <input type="tel" id="phone" name="phone" placeholder="+92-"><br><br>
+
+          <label for="dob">Date of Birth</label><br>
+
+        <input type="date" id="dob" name="dob" required=""><br><br>
+
+            <label for="gender">Gender</label><br>
+
+        <input type="radio" id="male" name="gender" value="male">
+
+            <label for="male">Male</label><br>
+
+        <input type="radio" id="female" name="gender" value="female">
+
+            <label for="female">Female</label><br>
+
+        <input type="radio" id="other" name="gender" value="other">
+
+        <label for="other">Other</label><br><br>
+
+          <label for="course">chose your </label><br>
+
+        <select id="Skills" name="Skills">
+
+            <option value="Web Developer">Web Developer</option>
+            <option value="App developer">App Developer</option>
+            <option value="Cyber security">Cyber security</option>
+            <option value="None">None</option>
+
+        </select><br><br>
+
+    
+
+          <label for="comments">Do You Need Our Help!</label><br><br>
+
+
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+            <label for="subscribe">Agreed To Our Terms and Condition</label>
+
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes"><br><br>
+
+            <button type="submit" name="submit" id="submitButton">Sign IN</button>
+
+        </form>
+        <input type="submit" name="submit now">
+        <input type="reset" name="reset now">
+        
+        <hr>
+        <center>
+            Please click here to visit <a href="index.html">home page</a> back 
+            <br>
+            <a href="Contect us.html">Contect us</a>
+        </center>
+</body>
+
+</html>
